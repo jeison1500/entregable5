@@ -3,7 +3,7 @@ import Header from "../componets/pokedex/Header"
 import { useEffect, useState } from "react"
 import axios from "axios"
 import PokemonList from "../componets/pokedex/pokemonList"
-import { Link } from "react-router-dom"
+
 
 const Pokedex = () => {
 

@@ -1,7 +1,7 @@
 const FooterHome = () => {
   return (
     <section className="relative">
-      /* seccion roja */
+      {/* seccion roja  */}
 
     <div className="bg-red-600 h-20"></div>
 
