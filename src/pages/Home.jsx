@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux"
-import FooterHome from "../componets/Home/footerHome"
 import { setNameTrainer } from "../store/slices/nameTrainer.slice"
 import { useNavigate } from "react-router-dom"
+import FooterHome from "../componets/Home.carpert/FooterHome"
 
 const Home = () => {
 
