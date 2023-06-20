@@ -1,6 +1,6 @@
 import Pokemoncard from "./Pokemoncard"
 
-const pokemonList = ({pokemons}) => {
+const PokemonList = ({pokemons}) => {
   return (
     <section className="grid gap-8 grid-cols-[repeat(auto-fill,_280px)] justify-center max-w[1280px] mx-auto"  >
       {
@@ -10,4 +10,4 @@ const pokemonList = ({pokemons}) => {
     </section>
   )
 }
-export default pokemonList
+export default PokemonList

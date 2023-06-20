@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import Header from "../componets/pokedex/Header"
+import Header from "../componets/pokedex.File/Header"
 import { useEffect, useState } from "react"
 import axios from "axios"
 

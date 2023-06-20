@@ -1,8 +1,9 @@
 import { useSelector } from "react-redux"
-import Header from "../componets/pokedex/Header"
+import Header from "../componets/pokedex.File/Header"
 import { useEffect, useState } from "react"
 import axios from "axios"
-import PokemonList from "../componets/pokedex/pokemonList"
+import PokemonList from "../componets/pokedex.File/PokemonList"
+
 
 
 const Pokedex = () => {
