@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux"
-import FooterHome from "../componets/home/footerHome"
+import FooterHome from "../componets/Home/footerHome"
 import { setNameTrainer } from "../store/slices/nameTrainer.slice"
 import { useNavigate } from "react-router-dom"
 
@@ -19,7 +19,7 @@ const Home = () => {
   }
 
 
-       // w-[280px] xxs:w-[650PX] sm:w-[1080px]
+       
 
     
 
