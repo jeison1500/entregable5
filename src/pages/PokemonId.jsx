@@ -98,11 +98,11 @@ const PokemonId = () => {
 
         {/* peso y altura */}
         <section className="grid grid-cols-2 gap-8 text-center font-bold mt-4"  >        
-             <div className=" -mr-60">
+             <div >
             <p>Peso</p>          
             {pokemon?.weight} kg  
             </div>
-            <div className="-ml-60 ">
+            <div>
             <p>Altura</p>
             {pokemon?.height} m            
             </div>

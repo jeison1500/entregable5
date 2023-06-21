@@ -123,7 +123,7 @@ const Pokedex = () => {
     
     <main >
       <Header />
-      <p className="text-xl text-left p-2 ml-4 mt-8"><span className="font-bold text-red-500">Welcome  {nameTrainer}</span>, here you can find </p>
+      <p className="text-xl text-left ml-4 mt-8"><span className="font-bold text-red-500">Welcome  {nameTrainer}</span>, here you can find </p>
         
         <form className="grid gap-8 grid-cols-[repeat(auto-fill,_280px)] justify-center p-2" onSubmit={handleSumit}>
           <div className="grid grid-cols-[1fr_28%] mt-6 mb-6"> 
