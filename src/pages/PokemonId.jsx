@@ -78,7 +78,7 @@ const PokemonId = () => {
     <main>
       <Header />
 
-      <section className="w-[280px] xxs:w-[650PX] sm:w-[1080px] mx-auto p-2 " >
+      <section className="p-5" >
         {/* imagen del pokemon */}
         <section className={`flex justify-center relative h-20 mt-52  ${pokeLinearGradiendts[pokemon?.types[0].type.name]}`} >
           <img className=" absolute px-12 bottom-4" src={pokemon?.sprites.other.dream_world.front_default} alt={pokemon?.name} />
